@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A program that prints the size of various comp types
- * Return 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
@@ -16,5 +16,5 @@ printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
 printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
 printf("size of a flot: %lu byte(s)\n", (unsigned long)sizeof(f));
-return 0;
+return (0);
 }
