@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int n = 'a';
+	int n = 97;
 
-	while (n <= 'z')
+	while (n <= 122)
 {
 	putchar(n);
 	n++;
