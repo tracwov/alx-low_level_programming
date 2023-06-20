@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *Main - Entry point
- *Description: 'get the last degit of a number'
+ *Description: "get the last degit of a number"
  *Return: always 0
  */
 int main(void)
@@ -16,15 +16,15 @@ int main(void)
 	ld = n % 10;
 	if (ld > 5)
 	{
-		printf("last digit of %d id %d and is greater than 5\n", n, ld);
+		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
 	}
 	else if (ld == 0)
 	{
-		printf("last digit of %d is %d and is 0\n", n, ld);
+		printf("Last digit of %d is %d and is 0\n", n, ld);
 	}
 	else
 	{
-		printf("last digit of %d is %d and lass than 6 and not 0\n", n, ld);
+		printf("Last digit of %d is %d and is lass than 6 and not 0\n", n, ld);
 	}
 	return (0);
 }
